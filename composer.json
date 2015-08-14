@@ -1,0 +1,11 @@
+{
+  "name": "ringtrail/laravel-sns-driver",
+  "autoload": {
+    "psr-4": {
+      "Ringtrail\\LaravelSns\\": "src"
+    }
+  },
+  "require": {
+    "aws/aws-sdk-php": "~3.0"
+  }
+}
