@@ -9,8 +9,8 @@ In config/broadcasting.php set the default driver to 'sns' and add configuration
 ```php
 'default' => 'sns,
 'connections' => [
-	...
-	'sns' => [
+    ...
+    'sns' => [
         'driver' => 'sns',
         'aws_key' => env('AWS_SNS_KEY'),
         'aws_secret' => env('AWS_SNS_SECRET'),
